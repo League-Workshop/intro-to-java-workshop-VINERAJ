@@ -11,7 +11,11 @@ public class MyRobotFreind implements KeyListener {
 		new MyRobotFreind().makeFrame();
 		//speak("Welcome Friend");
 		String answer = JOptionPane.showInputDialog("Press a key!");
-		if(answer.equalsIgnoreCase("a"){speak()
+		if(answer.equalsIgnoreCase("a")){JOptionPane.showMessageDialog(null,"my name is bob");}
+		if(answer.equalsIgnoreCase("b")) {JOptionPane.showMessageDialog(null, "what is your name?");}
+		if(answer.equalsIgnoreCase("c")) {JOptionPane.showMessageDialog(null,"cuddle");}
+		if(answer.equalsIgnoreCase("d")) {JOptionPane.showMessageDialog(null, "I'm so happy!");}
+		System.out.println(answer);
 	}
 
 void makeFrame() {
